@@ -20,6 +20,7 @@ FeaturesTestData  <- read.table(file.path(path, "test" , "X_test.txt" ),header =
 FeaturesTrainData <- read.table(file.path(path, "train", "X_train.txt"),header = FALSE)
 FeaturesNamesData <- read.table(file.path(path, "features.txt"),head=FALSE)
 
+
 #combine data tables by row and rename them
 
 ActivityData<- ActivityTestData %>% 
