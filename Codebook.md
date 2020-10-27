@@ -34,7 +34,7 @@ here
 > have only low frequency components, therefore a filter with 0.3 Hz
 > cutoff frequency was used. From each window, a vector of features was
 > obtained by calculating variables from the time and frequency domain.
-> See ‘features\_info.txt’ for more details.
+
 
 ## Libraries Used
 
@@ -68,16 +68,23 @@ the same step by chaining the `select` function This data was stored in:
 ## Uses descriptive names for each activity
 
 Activities, originally denoted by numbers, were changed into descriptive
-names. “WALKING” “WALKING\_UPSTAIRS” “WALKING\_DOWNSTAIRS” “SITTING”
+names. 
+“WALKING” 
+“WALKING\_UPSTAIRS” 
+“WALKING\_DOWNSTAIRS” 
+“SITTING”
 “STANDING” “LAYING”
 
 ## Appropriately labels data set with descriptive variable names
 
 By examining mergedData, the following items were replaced using gsub:
 
-`Acc` replaced with Accelerometer `Gyro` replaced with Gyroscope
-`BodyBody` replaced with Body `Mag` replaced with Magnitude Character
-`f` replaced with Frequency Character `t` replaced with Time
+`Acc` replaced with Accelerometer
+`Gyro` replaced with Gyroscope
+`BodyBody` replaced with Body 
+`Mag` replaced with Magnitude 
+Character `f` replaced with Frequency 
+Character `t` replaced with Time
 
 variables after they were edited
 
