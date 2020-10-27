@@ -69,22 +69,33 @@ the same step by chaining the `select` function This data was stored in:
 
 Activities, originally denoted by numbers, were changed into descriptive
 names. 
+
 “WALKING” 
+
 “WALKING\_UPSTAIRS” 
+
 “WALKING\_DOWNSTAIRS” 
+
 “SITTING”
+
 “STANDING” “LAYING”
 
 ## Appropriately labels data set with descriptive variable names
 
 By examining mergedData, the following items were replaced using gsub:
 
-`Acc` replaced with Accelerometer
-`Gyro` replaced with Gyroscope
-`BodyBody` replaced with Body 
-`Mag` replaced with Magnitude 
-Character `f` replaced with Frequency 
-Character `t` replaced with Time
+`Acc` replaced with Accelerometer.
+
+`Gyro` replaced with Gyroscope.
+
+`BodyBody` replaced with Body. 
+
+`Mag` replaced with Magnitude. 
+
+Character `f` replaced with Frequency. 
+
+Character `t` replaced with Time.
+
 
 variables after they were edited
 
