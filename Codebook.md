@@ -78,7 +78,10 @@ names.
 
 “SITTING”
 
-“STANDING” “LAYING”
+“STANDING” 
+
+“LAYING”
+
 
 ## Appropriately labels data set with descriptive variable names
 
