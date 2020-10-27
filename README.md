@@ -17,7 +17,7 @@ For each record it is provided:
 The dataset includes the following files:
 =========================================
 
-- README.txt
-- Codebook.Rmd - Markdown for the codebook
+- README.md
+- Codebook.md - Markdown for the codebook
 - run_analysis.R - Script to create the tidyData.txt
 - tidyData.txt - Tidy data set created
